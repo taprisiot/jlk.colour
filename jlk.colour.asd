@@ -7,4 +7,9 @@
   :license "2-Clause BSD"
   :serial t
   :depends-on (#:jlk.string-index)
-  :components ((:file "colour")))
+  :components ((:file "package")
+	       (:file "helpers")
+	       (:file "colour")
+	       (:file "converters")
+	       (:file "tests")
+	       (:file "examples")))
