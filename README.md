@@ -1,35 +1,3 @@
-;;; -*- mode: Common-Lisp; coding: utf-8-unix -*-
-
-(defpackage #:jlk.colour
-  (:use #:common-lisp)
-  (:export *internal-colour-format*
-	   *default-palette*
-	   *default-index*
-
-	   set-internal-colour-format
-	   set-default-palette
-	   set-default-index
-	   make-index
-
-	   get-colour
-	   find-colour
-
-	   make-simple-palette
-	   make-html4-palette
-	   make-web-palette
-	   make-x11-palette
-
-	   defcolour
-
-	   make-colour-rgb-8
-	   make-colour-rgba-8
-	   make-colour-rgb-d
-	   make-colour-rgba-d
-	   make-colour-rgb-24
-	   make-colour-rgba-32
-
-	   reset-defaults)
-  (:documentation "
 # jlk.colour
 
 A simple colour library for Common Lisp.
@@ -73,4 +41,3 @@ custom format. See examples.lisp.
 ## Licence
 
 see LICENCE file in the repository
-"))
